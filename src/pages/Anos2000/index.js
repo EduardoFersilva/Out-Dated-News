@@ -7,9 +7,10 @@ const Container = styled.div`
   min-height:100vh;
   margin: 0;
   display: flex;
+  background-color:#e18040;
   flex-direction: column;
   align-items: center;
-  background-image: url(${process.env.PUBLIC_URL}/imgs/sol.jpg);
+  background-image: url(${process.env.PUBLIC_URL}/imgs/pc.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -63,7 +64,8 @@ const CardText = styled.p`
   margin-bottom: 1rem;
 `;
 
-const Anos80 = () => {
+
+const Anos2000 = () => {
   return (
     <Container>
 
@@ -71,17 +73,18 @@ const Anos80 = () => {
       <Card className="card mb-3">
         <Row className="row g-0">
           <Column className="col-md-4" image>
-            <Image src={process.env.PUBLIC_URL + '/imgs/80.jpeg'} className="" alt="" />
+            <Image src={process.env.PUBLIC_URL + '/imgs/00s.jpg'} className="" alt="" />
           </Column>
           <Column className="col-md-8">
             <CardBody className="card-body">
-              <CardTitle className="card-title">1980</CardTitle>
+              <CardTitle className="card-title">2000</CardTitle>
               <CardText className="card-text">
-                no ano de 1980 foi o lançamento do primeiro disco rígido (HD) de 5,25 polegadas pela IBM.
-                Esse disco rígido, conhecido como IBM 3380, tinha uma capacidade de armazenamento impressionante
-                para a época, atingindo até 1,26 gigabytes. Esse marco representou um avanço significativo em termos
-                de capacidade de armazenamento de dados.
               </CardText>
+              No ano 2000, a Microsoft lançou o sistema operacional Windows 2000,
+              representando um marco importante na evolução da computação empresarial.
+              Esse sistema operacional foi projetado para atender às demandas das empresas
+              e organizações, fornecendo maior confiabilidade, segurança e escalabilidade em
+              comparação com as versões anteriores.
               <CardText>
               </CardText>
             </CardBody>
@@ -92,16 +95,16 @@ const Anos80 = () => {
       <Card className="card mb-3">
         <Row className="row g-0">
           <Column className="col-md-4" image>
-            <Image src={process.env.PUBLIC_URL + '/imgs/80.jpeg'} className="" alt="" />
+            <Image src={process.env.PUBLIC_URL + '/imgs/00s.jpg'} className="" alt="" />
           </Column>
           <Column className="col-md-8">
             <CardBody className="card-body">
-              <CardTitle className="card-title">1980</CardTitle>
+              <CardTitle className="card-title">2000</CardTitle>
               <CardText className="card-text">
-                O boom dos computadores pessoais: Na década de 80, os computadores pessoais se tornaram mais populares e acessíveis.
-                Empresas como IBM, Apple e Commodore lançaram modelos icônicos, como o IBM PC (1981) e o Apple Macintosh (1984),
-                que introduziram interfaces gráficas e recursos inovadores.
               </CardText>
+              A ascensão dos smartphones: A década de 2000 foi marcada pela popularização dos smartphones.
+              O lançamento do BlackBerry 5810 em 2002 e do iPhone em 2007 revolucionou a indústria de dispositivos móveis.
+              Esses dispositivos combinavam telefonia, internet, e-mail e aplicativos em um único dispositivo portátil.
               <CardText>
               </CardText>
             </CardBody>
@@ -112,15 +115,16 @@ const Anos80 = () => {
       <Card className="card mb-3">
         <Row className="row g-0">
           <Column className="col-md-4" image>
-            <Image src={process.env.PUBLIC_URL + '/imgs/80.jpeg'} className="" alt="" />
+            <Image src={process.env.PUBLIC_URL + '/imgs/00s.jpg'} className="" alt="" />
           </Column>
           <Column className="col-md-8">
             <CardBody className="card-body">
-              <CardTitle className="card-title">1980</CardTitle>
+              <CardTitle className="card-title">2000</CardTitle>
               <CardText className="card-text">
-                A popularização dos videogames: Os anos 80 foram a era de ouro dos videogames, com o lançamento de consoles icônicos como o Atari 2600 (1982)
-                e o Nintendo Entertainment System (NES) (1985). Jogos clássicos como Super Mario Bros., Pac-Man e Tetris se tornaram imensamente populares.
               </CardText>
+              Redes sociais: As redes sociais se tornaram uma parte essencial da vida cotidiana durante a década de 2000.
+              O lançamento do MySpace em 2003 e do Facebook em 2004 permitiu que as pessoas se conectassem, compartilhassem conteúdo e se
+              comunicassem virtualmente em uma escala sem precedentes.
               <CardText>
               </CardText>
             </CardBody>
@@ -131,16 +135,15 @@ const Anos80 = () => {
       <Card className="card mb-3">
         <Row className="row g-0">
           <Column className="col-md-4" image>
-            <Image src={process.env.PUBLIC_URL + '/imgs/80.jpeg'} className="" alt="" />
+            <Image src={process.env.PUBLIC_URL + '/imgs/00s.jpg'} className="" alt="" />
           </Column>
           <Column className="col-md-8">
             <CardBody className="card-body">
-              <CardTitle className="card-title">1980</CardTitle>
+              <CardTitle className="card-title">2000</CardTitle>
               <CardText className="card-text">
-                A revolução dos telefones celulares: A década de 80 marcou o início da expansão dos telefones celulares.
-                Modelos como o Motorola DynaTAC 8000X (1983) e o Nokia Mobira Talkman (1984) introduziram a tecnologia móvel e abriram
-                caminho para o que hoje conhecemos como smartphones.
               </CardText>
+              O surgimento do YouTube: Em 2005, o YouTube foi fundado e se tornou a plataforma líder para compartilhamento de vídeos online.
+              Isso permitiu que as pessoas carregassem, assistissem e compartilhassem vídeos de maneira fácil, democratizando a produção de conteúdo audiovisual.
               <CardText>
               </CardText>
             </CardBody>
@@ -151,15 +154,16 @@ const Anos80 = () => {
       <Card className="card mb-3">
         <Row className="row g-0">
           <Column className="col-md-4" image>
-            <Image src={process.env.PUBLIC_URL + '/imgs/80.jpeg'} className="" alt="" />
+            <Image src={process.env.PUBLIC_URL + '/imgs/00s.jpg'} className="" alt="" />
           </Column>
           <Column className="col-md-8">
             <CardBody className="card-body">
-              <CardTitle className="card-title">1980</CardTitle>
+              <CardTitle className="card-title">2000</CardTitle>
               <CardText className="card-text">
-                O surgimento da Internet comercial: Embora a Internet já existisse, foi na década de 80 que ela começou a se tornar comercialmente acessível.
-                Em 1989, Tim Berners-Lee propôs a World Wide Web, que permitiu a navegação fácil por meio de links e impulsionou a popularização da Internet.
               </CardText>
+              Expansão da banda larga: Durante a década de 2000, houve uma rápida expansão da tecnologia de banda larga,
+              permitindo conexões de internet mais rápidas e estáveis. Isso impulsionou o crescimento de serviços online, como streaming de vídeo,
+              jogos online e compartilhamento de arquivos.
               <CardText>
               </CardText>
             </CardBody>
@@ -170,15 +174,16 @@ const Anos80 = () => {
       <Card className="card mb-3">
         <Row className="row g-0">
           <Column className="col-md-4" image>
-            <Image src={process.env.PUBLIC_URL + '/imgs/80.jpeg'} className="" alt="" />
+            <Image src={process.env.PUBLIC_URL + '/imgs/00s.jpg'} className="" alt="" />
           </Column>
           <Column className="col-md-8">
             <CardBody className="card-body">
-              <CardTitle className="card-title">1980</CardTitle>
+              <CardTitle className="card-title">2000</CardTitle>
               <CardText className="card-text">
-                O desenvolvimento dos discos compactos (CDs): Os anos 80 marcaram a transição dos antigos discos de vinil e fitas cassete para os modernos CDs.
-                A tecnologia de armazenamento digital em CDs foi desenvolvida pela Philips e pela Sony, sendo lançada comercialmente em 1982.
               </CardText>
+              Avanços na computação em nuvem: A computação em nuvem começou a ganhar destaque na década de 2000.
+              Empresas como Amazon com o Amazon Web Services (AWS), Google com o Google Cloud Platform (GCP) e Microsoft com o Azure
+              ofereceram serviços de armazenamento e processamento em nuvem acessíveis e escaláveis.
               <CardText>
               </CardText>
             </CardBody>
@@ -189,25 +194,24 @@ const Anos80 = () => {
       <Card className="card mb-3">
         <Row className="row g-0">
           <Column className="col-md-4" image>
-            <Image src={process.env.PUBLIC_URL + '/imgs/80.jpeg'} className="" alt="" />
+            <Image src={process.env.PUBLIC_URL + '/imgs/00s.jpg'} className="" alt="" />
           </Column>
           <Column className="col-md-8">
             <CardBody className="card-body">
-              <CardTitle className="card-title">1980</CardTitle>
+              <CardTitle className="card-title">2000</CardTitle>
               <CardText className="card-text">
-                Os avanços na computação gráfica: A década de 80 testemunhou grandes avanços na área de computação gráfica. Filmes como "Tron" (1982) e
-                "O Último Guerreiro das Estrelas" (1984) utilizaram efeitos visuais inovadores, e empresas como a Pixar começaram a explorar a animação por computador.
               </CardText>
+              O boom das mídias digitais: A década de 2000 testemunhou a transição de mídias físicas para mídias digitais.
+              CDs e DVDs foram substituídos por arquivos digitais, como MP3 e MP4. A música digital se tornou popular com o lançamento do
+              iPod pela Apple em 2001 e o iTunes Store em 2003.
               <CardText>
               </CardText>
             </CardBody>
           </Column>
         </Row>
       </Card>
-
-
     </Container>
   );
 }
 
-export default Anos80;
+export default Anos2000;

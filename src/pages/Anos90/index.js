@@ -7,9 +7,10 @@ const Container = styled.div`
   min-height:100vh;
   margin: 0;
   display: flex;
+  background-color:#f5e23a;
   flex-direction: column;
   align-items: center;
-  background-image: url(${process.env.PUBLIC_URL}/imgs/sol.jpg);
+  background-image: url(${process.env.PUBLIC_URL}/imgs/vintage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -63,7 +64,7 @@ const CardText = styled.p`
   margin-bottom: 1rem;
 `;
 
-const Anos80 = () => {
+const Anos90 = () => {
   return (
     <Container>
 
@@ -71,16 +72,17 @@ const Anos80 = () => {
       <Card className="card mb-3">
         <Row className="row g-0">
           <Column className="col-md-4" image>
-            <Image src={process.env.PUBLIC_URL + '/imgs/80.jpeg'} className="" alt="" />
+            <Image src={process.env.PUBLIC_URL + '/imgs/90.jpeg'} className="" alt="" />
           </Column>
           <Column className="col-md-8">
             <CardBody className="card-body">
-              <CardTitle className="card-title">1980</CardTitle>
+              <CardTitle className="card-title">1990</CardTitle>
               <CardText className="card-text">
-                no ano de 1980 foi o lançamento do primeiro disco rígido (HD) de 5,25 polegadas pela IBM.
-                Esse disco rígido, conhecido como IBM 3380, tinha uma capacidade de armazenamento impressionante
-                para a época, atingindo até 1,26 gigabytes. Esse marco representou um avanço significativo em termos
-                de capacidade de armazenamento de dados.
+                No início da década de 1990, a tecnologia de telefonia móvel estava passando
+                por um período de transformação significativa, preparando o terreno para a
+                revolução da comunicação sem fio que viria nas décadas seguintes. A década de
+                1990 testemunhou o desenvolvimento e aprimoramento das redes celulares, bem como
+                a introdução de telefones móveis mais compactos e acessíveis.
               </CardText>
               <CardText>
               </CardText>
@@ -92,15 +94,15 @@ const Anos80 = () => {
       <Card className="card mb-3">
         <Row className="row g-0">
           <Column className="col-md-4" image>
-            <Image src={process.env.PUBLIC_URL + '/imgs/80.jpeg'} className="" alt="" />
+            <Image src={process.env.PUBLIC_URL + '/imgs/90.jpeg'} className="" alt="" />
           </Column>
           <Column className="col-md-8">
             <CardBody className="card-body">
-              <CardTitle className="card-title">1980</CardTitle>
+              <CardTitle className="card-title">1990</CardTitle>
               <CardText className="card-text">
-                O boom dos computadores pessoais: Na década de 80, os computadores pessoais se tornaram mais populares e acessíveis.
-                Empresas como IBM, Apple e Commodore lançaram modelos icônicos, como o IBM PC (1981) e o Apple Macintosh (1984),
-                que introduziram interfaces gráficas e recursos inovadores.
+                A popularização da Internet: A década de 90 foi marcada pelo rápido crescimento e popularização da Internet.
+                Surgiram os primeiros provedores de acesso à Internet comerciais, como AOL, CompuServe e Prodigy. A World Wide Web se
+                tornou acessível para o público em geral, impulsionando a comunicação online, o comércio eletrônico e o compartilhamento de informações.
               </CardText>
               <CardText>
               </CardText>
@@ -112,14 +114,15 @@ const Anos80 = () => {
       <Card className="card mb-3">
         <Row className="row g-0">
           <Column className="col-md-4" image>
-            <Image src={process.env.PUBLIC_URL + '/imgs/80.jpeg'} className="" alt="" />
+            <Image src={process.env.PUBLIC_URL + '/imgs/90.jpeg'} className="" alt="" />
           </Column>
           <Column className="col-md-8">
             <CardBody className="card-body">
-              <CardTitle className="card-title">1980</CardTitle>
+              <CardTitle className="card-title">1990</CardTitle>
               <CardText className="card-text">
-                A popularização dos videogames: Os anos 80 foram a era de ouro dos videogames, com o lançamento de consoles icônicos como o Atari 2600 (1982)
-                e o Nintendo Entertainment System (NES) (1985). Jogos clássicos como Super Mario Bros., Pac-Man e Tetris se tornaram imensamente populares.
+                O surgimento dos motores de busca: Com o rápido crescimento da Internet, houve a necessidade de organizar e pesquisar informações online.
+                Nessa época, surgiram motores de busca populares, como o Yahoo! (1994) e o Google (1998), que revolucionaram a forma como as pessoas encontravam
+                informações na web.
               </CardText>
               <CardText>
               </CardText>
@@ -131,15 +134,15 @@ const Anos80 = () => {
       <Card className="card mb-3">
         <Row className="row g-0">
           <Column className="col-md-4" image>
-            <Image src={process.env.PUBLIC_URL + '/imgs/80.jpeg'} className="" alt="" />
+            <Image src={process.env.PUBLIC_URL + '/imgs/90.jpeg'} className="" alt="" />
           </Column>
           <Column className="col-md-8">
             <CardBody className="card-body">
-              <CardTitle className="card-title">1980</CardTitle>
+              <CardTitle className="card-title">1990</CardTitle>
               <CardText className="card-text">
-                A revolução dos telefones celulares: A década de 80 marcou o início da expansão dos telefones celulares.
-                Modelos como o Motorola DynaTAC 8000X (1983) e o Nokia Mobira Talkman (1984) introduziram a tecnologia móvel e abriram
-                caminho para o que hoje conhecemos como smartphones.
+                A revolução dos telefones celulares: Na década de 90, os telefones celulares se tornaram mais compactos, acessíveis e populares.
+                Houve uma rápida evolução dos tijolões dos anos 80 para dispositivos mais leves e portáteis. Modelos como o Nokia 5110 e o Motorola StarTAC
+                ganharam popularidade.
               </CardText>
               <CardText>
               </CardText>
@@ -151,14 +154,15 @@ const Anos80 = () => {
       <Card className="card mb-3">
         <Row className="row g-0">
           <Column className="col-md-4" image>
-            <Image src={process.env.PUBLIC_URL + '/imgs/80.jpeg'} className="" alt="" />
+            <Image src={process.env.PUBLIC_URL + '/imgs/90.jpeg'} className="" alt="" />
           </Column>
           <Column className="col-md-8">
             <CardBody className="card-body">
-              <CardTitle className="card-title">1980</CardTitle>
+              <CardTitle className="card-title">1990</CardTitle>
               <CardText className="card-text">
-                O surgimento da Internet comercial: Embora a Internet já existisse, foi na década de 80 que ela começou a se tornar comercialmente acessível.
-                Em 1989, Tim Berners-Lee propôs a World Wide Web, que permitiu a navegação fácil por meio de links e impulsionou a popularização da Internet.
+                O boom dos computadores domésticos: A década de 90 viu um aumento significativo na adoção de computadores domésticos.
+                Os PCs se tornaram mais acessíveis e populares, com o surgimento de marcas como Dell e Gateway. Além disso, o sistema operacional Windows 95,
+                lançado pela Microsoft, trouxe uma interface gráfica amigável e fácil de usar.
               </CardText>
               <CardText>
               </CardText>
@@ -170,14 +174,15 @@ const Anos80 = () => {
       <Card className="card mb-3">
         <Row className="row g-0">
           <Column className="col-md-4" image>
-            <Image src={process.env.PUBLIC_URL + '/imgs/80.jpeg'} className="" alt="" />
+            <Image src={process.env.PUBLIC_URL + '/imgs/90.jpeg'} className="" alt="" />
           </Column>
           <Column className="col-md-8">
             <CardBody className="card-body">
-              <CardTitle className="card-title">1980</CardTitle>
+              <CardTitle className="card-title">1990</CardTitle>
               <CardText className="card-text">
-                O desenvolvimento dos discos compactos (CDs): Os anos 80 marcaram a transição dos antigos discos de vinil e fitas cassete para os modernos CDs.
-                A tecnologia de armazenamento digital em CDs foi desenvolvida pela Philips e pela Sony, sendo lançada comercialmente em 1982.
+                O advento dos CDs graváveis (CD-R): Os CDs graváveis se tornaram amplamente disponíveis durante a década de 90.
+                Essa tecnologia permitia que os usuários gravassem seus próprios CDs em casa, possibilitando a criação de mixtapes personalizadas,
+                backups de dados e distribuição de conteúdo digital.
               </CardText>
               <CardText>
               </CardText>
@@ -189,14 +194,15 @@ const Anos80 = () => {
       <Card className="card mb-3">
         <Row className="row g-0">
           <Column className="col-md-4" image>
-            <Image src={process.env.PUBLIC_URL + '/imgs/80.jpeg'} className="" alt="" />
+            <Image src={process.env.PUBLIC_URL + '/imgs/90.jpeg'} className="" alt="" />
           </Column>
           <Column className="col-md-8">
             <CardBody className="card-body">
-              <CardTitle className="card-title">1980</CardTitle>
+              <CardTitle className="card-title">1990</CardTitle>
               <CardText className="card-text">
-                Os avanços na computação gráfica: A década de 80 testemunhou grandes avanços na área de computação gráfica. Filmes como "Tron" (1982) e
-                "O Último Guerreiro das Estrelas" (1984) utilizaram efeitos visuais inovadores, e empresas como a Pixar começaram a explorar a animação por computador.
+                O surgimento dos videogames em 3D: Os anos 90 foram marcados pelo avanço dos gráficos 3D nos videogames.
+                Consoles como o Super Nintendo Entertainment System (SNES), Sega Saturn e Sony PlayStation introduziram jogos com gráficos tridimensionais,
+                como "Super Mario 64" e "Tomb Raider".
               </CardText>
               <CardText>
               </CardText>
@@ -210,4 +216,4 @@ const Anos80 = () => {
   );
 }
 
-export default Anos80;
+export default Anos90;
